@@ -6,7 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 60px;
+    padding: 20px 60px;
     
 }
 ul{
@@ -28,4 +28,45 @@ a{
     border: none;
     font-family: "Inter", sans-serif;
     cursor: pointer;
+}
+header{
+    background-image: url('./banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.head-sec{
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+ 
+}
+.head-sec h1{
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+
+}
+.head-sec p{
+    font-weight: 100;
+    
+}
+.button-two{
+    border-radius: 10px;
+    background-color: #1D4ED8;
+    color: white;
+    padding: 12px 33px;
+    font-weight: bold;
+    border: none;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    margin-top: 40%;
+    width: fit-content;
+    text-align: center;
 }
