@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    font-family: "Arimo", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #575757;
+}
+.button-one button{
+    border-radius: 10px;
+    background-color: #1D4ED8;
+    color: white;
+    padding: 12px 33px;
+    font-weight: bold;
+    border: none;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
