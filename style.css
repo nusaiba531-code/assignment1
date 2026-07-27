@@ -49,13 +49,14 @@ header{
  
 }
 .head-sec h1{
+    margin-top: 50px;
     font-weight: bold;
     font-family: "Inter", sans-serif;
-
 }
-.head-sec p{
+.head-sec h6{
     font-weight: 100;
-    
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.74)
 }
 .button-two{
     border-radius: 10px;
@@ -66,7 +67,100 @@ header{
     border: none;
     font-family: "Inter", sans-serif;
     cursor: pointer;
-    margin-top: 40%;
+    margin-top: 60%;
     width: fit-content;
     text-align: center;
+}
+   
+section{
+    padding: 80px 8%;
+}
+
+.al-ml{
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+.first{
+    padding: 24px 24px;
+    display: grid;
+    gap: 8px;
+}
+.cloud{
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+.second{
+    padding: 24px 24px;
+    display: grid;
+    gap: 8px;
+}
+.frontend{
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+.third{
+    padding: 24px 24px;
+    display: grid;
+    gap: 8px;
+}
+.security{
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+.fourth{
+    padding: 24px 24px;
+    display: grid;
+    gap: 8px;
+}
+.second-head{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 46px;
+   
+   
+}
+.two-speakers{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;  
+}
+.two-speakers h5{
+    color: #2563EB;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.two-speakers p{
+    color: #575757;
+    font-family: "Inter", sans-serif;
+}
+.two-speakers h4{
+    font-family: "Inter", sans-serif;
+}
+.two-speakers img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.four-speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 32px;
+    gap: 20px;
+}
+.four-speakers h5{
+    color:#2563EB;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.four-speakers p{
+    color: #575757;
+    font-family: "Inter", sans-serif;
+}
+.four-speakers h4{
+    font-family: "Inter", sans-serif;
+}
+.four-speakers img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+
 }
