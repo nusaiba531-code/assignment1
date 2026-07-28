@@ -9,7 +9,7 @@ nav{
     padding: 20px 60px;
     
 }
-ul{
+.nav-sec{
     display: flex;
     list-style: none;
     gap: 24px;
@@ -116,8 +116,7 @@ section{
     display: grid;
     justify-content: center;
     margin-bottom: 46px;
-   
-   
+    font-family: "Inter", sans-serif;
 }
 .two-speakers{
      display: grid;
@@ -162,5 +161,177 @@ section{
 .four-speakers img{
     width: 100%;
     border-radius: 8px 8px 0 0;
+}
+.second-head{
+    text-align: center;
+}
+.Standard-card{
+   height:380px;
+   width: 290px;
+   border: 1px solid #E5E7EB;
+   padding: 40px 40px;
+   border-radius: 12px;  
+}
+.small-heading{
+    display: grid;
+    gap: 4px;
+    font-family: "Inter", sans-serif;
+}
+.small-heading h5{
+    color: #888888;
+    font-weight: 500;
+}
+.small-heading h6{
+    color: #888888;
+    font-weight: 400;
+}
+.body-one{
+    padding: 20px 15px;
+}
+.third-button{
+    width: 100%;
+    margin-top: 4px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding: 10px 80px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #2563EB;
+    background-color: white;
+    color: #2563EB;
+    font-family: "Inter", sans-serif;
+}
+.body-one li::marker{
+    color: #2563EB;
+}
+.body-one ul{
+    display: grid;
+    gap: 15px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    color: #242222d7
+}
+hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+.all-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
+
+
+
+
+.Pro-card{
+   height:380px;
+   width: 290px;
+   border: 1px solid #E5E7EB;
+   padding: 40px 40px;
+   border-radius: 12px;
+   background-color: #0D1B2A;
+}
+.pro-heading{
+    display: grid;
+    gap: 4px;
+    font-family: "Inter", sans-serif;
+}
+.pro-heading h5{
+    font-weight: 500;
+    color: #93C5FD
+}
+.pro-heading h1{
+    color: white;
+    font-weight: 400;
+}
+.pro-heading h6{
+    color: #888888;
+    font-weight: 400;
+}
+.body-two{
+    padding: 20px 15px;
+}
+.fourth-button{
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    padding: 10px 100px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #2563EB;
+    background-color: #2563EB;
+    color: white;
+}
+.body-two li::marker{
+    color: #2563EB;
+}
+.body-two ul{
+    font-weight: 300;
+    display: grid;
+    gap: 10px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    color: #ffffffa1;
+}
+.pro-heading .light-line{
+   
+    border-top: 0.9px solid #414246dc;
+}
+
+
+.team-card{
+   height:380px;
+   width: 290px;
+   border: 1px solid #E5E7EB;
+   padding: 40px 40px;
+   border-radius: 12px;  
+   background-color: rgba(236, 234, 234, 0.212)
+}
+.team-heading{
+    display: grid;
+    gap: 4px;
+    font-family: "Inter", sans-serif;
+}
+.team-heading h5{
+    font-family: "Inter", sans-serif;
+    color: #888888;
+    font-weight: 500;
+}
+.team-heading h6{
+    font-family: "Inter", sans-serif;
+    color: #888888;
+    font-weight: 400;
+}
+.body-three{
+    padding: 20px 15px;
+}
+.fifth-button{
+    width: 100%;
+    margin-top: 4px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #090a0a;
+    background-color: white;
+    color: #101011;
+    font-family: "Inter", sans-serif;
+}
+.body-three li::marker{
+    color: #2563EB;
+}
+.body-three ul{
+    display: grid;
+    gap: 15px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: #1a1818d7
+}
+.subscription{
+    padding: 10px 5%;
 }

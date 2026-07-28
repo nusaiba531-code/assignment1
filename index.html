@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,18 @@
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <div>
             <img src="./logo.png" alt="">
         </div>
         <div>
-            <ul>
+            <ul class="nav-sec">
                 <li><a href="">Speakers</a></li>
                 <li><a href="">Schedule</a></li>
                 <li><a href="">Tracks</a></li>
@@ -27,13 +31,14 @@
         <div class="button-one">
             <button>Register Now</button>
         </div>
-        
+
     </nav>
     <!--header-->
     <header>
         <div class="head-sec">
             <h1>Code. <em>Connect</em>. Create</h1>
-            <h6>Join 4,000+ engineers, founders, and builders at the premier developer<br> conference of 2026. Three days of cutting-edge talks, hands-on workshops,<br> and meaningful connections.</h6>
+            <h6>Join 4,000+ engineers, founders, and builders at the premier developer<br> conference of 2026. Three
+                days of cutting-edge talks, hands-on workshops,<br> and meaningful connections.</h6>
             <button class="button-two">Register Now</button>
         </div>
     </header>
@@ -41,43 +46,125 @@
         <section class="Speakers">
             <h1 class="second-head">Meet the Speakers</h1>
             <div class="two-speakers">
-            <div class="al-ml">
-                <img src="./andrej.png" alt="">
-                <div class="first">
-                <h5>AI / ML</h5>
-                <h4>Andrej Karpathy</h4>
-                <p>Pretraining team, Anthropic</p>
+                <div class="al-ml">
+                    <img src="./andrej.png" alt="">
+                    <div class="first">
+                        <h5>AI / ML</h5>
+                        <h4>Andrej Karpathy</h4>
+                        <p>Pretraining team, Anthropic</p>
+                    </div>
                 </div>
-            </div>
-            <div class="cloud">
-                <img src="./demis.png" alt="">
-                <div class="second">
-                <h5>Cloud & DevOps</h5>
-                <h4>Demis Hassabis</h4>
-                <p>Co-Founder and CEO, Google DeepMind</p>
+                <div class="cloud">
+                    <img src="./demis.png" alt="">
+                    <div class="second">
+                        <h5>Cloud & DevOps</h5>
+                        <h4>Demis Hassabis</h4>
+                        <p>Co-Founder and CEO, Google DeepMind</p>
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="four-speakers">
-            <div class="frontend">
-                <img src="./gary.png" alt="">
-                <div class="third">
-                <h5>Frontend</h5>
-                <h4>Gary Marcus</h4>
-                <p>Staff Engineer, Vercel</p>
+                <div class="frontend">
+                    <img src="./gary.png" alt="">
+                    <div class="third">
+                        <h5>Frontend</h5>
+                        <h4>Gary Marcus</h4>
+                        <p>Staff Engineer, Vercel</p>
+                    </div>
+                </div>
+                <div class="security">
+                    <img src="./mustafa.png" alt="">
+                    <div class="fourth">
+                        <h5>Security</h5>
+                        <h4>Mustafa Suleyman</h4>
+                        <p>CEO of Microsoft AI</p>
+                    </div>
                 </div>
             </div>
-            <div class="security">
-                <img src="./mustafa.png" alt="">
-                <div class="fourth">
-                <h5>Security</h5>
-                <h4>Mustafa Suleyman</h4>
-                <p>CEO of Microsoft AI</p>
-                </div>
+        </section>
+        <section class="subscription">
+            <div class="second-head">
+                <h1>Secure Your Spot</h1>
+                <p>Early-bird pricing ends August 15, 2026.</p>
             </div>
+
+            <!--card section-->
+
+            <div class="all-card">
+                <div class="Standard-card">
+                    <div class="small-heading">
+                        <h5>Standard</h5>
+                        <h1>$399</h1>
+                        <h6>per person</h6>
+                        <br>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="body-one">
+                            <ul>
+                                <li>Access to all 3 conference days</li>
+                                <li>48 curated technical talks</li>
+                                <li>2 workshop sessions</li>
+                                <li>Networking lunch & coffee breaks</li>
+                                <li>Conference swag bag</li>
+                                <li>Digital recordings (30 days)</li>
+                            </ul>
+                        </div>
+                        <button class="third-button">Get Standard</button>
+
+                    </div>
+                </div>
+                <div class="Pro-card">
+                    <div class="pro-heading">
+                        <h5>Pro</h5>
+                        <h1>$749</h1>
+                        <h6>per person</h6>
+                        <br>
+                        <hr class="light-line">
+                    </div>
+                    <div>
+                        <div class="body-two">
+                            <ul>
+                                <li>Everything in Standard</li>
+                                <li>Unlimited workshop access</li>
+                                <li>Speaker meet & greet</li>
+                                <li>VIP networking dinner</li>
+                                <li>Lifetime recording access</li>
+                                <li>1-on-1 mentorship (30 min)</li>
+                            </ul>
+                        </div>
+                        <button class="fourth-button">Get Pro</button>
+
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-heading">
+                        <h5>Team</h5>
+                        <h1>$5,999</h1>
+                        <h6>up to 10 people</h6>
+                        <br>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="body-three">
+                            <ul>
+                                <li>Everything in Pro (10 seats)</li>
+                                <li>Dedicated team lounge access</li>
+                                <li>Private workshop booking</li>
+                                <li>Company logo on event page</li>
+                                <li>Recruitment booth (1 day)</li>
+                                <li>Priority customer support</li>
+                            </ul>
+                        </div>
+                        <button class="fifth-button">Contact Us</button>
+
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
-    
+
 </body>
+
 </html>
